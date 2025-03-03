@@ -9,9 +9,6 @@ body {
 }
 
 .container {
-    background-image: url('Imagenes/');
-    background-size: cover;
-    background-position: center;
     background-color: white;
     border-radius: 10px;
     padding: 20px;
@@ -26,16 +23,16 @@ body {
     height: 160px;
     object-fit: cover;
     margin-bottom: 10px;
+    border-radius: 50%;
 }
 
 h2, h3 {
-    color: black;
-    margin: 10px 0;
-    margin-bottom: 20px;
+    color: #05335c;
+    margin: 10px 0 20px;
 }
 
 p {
-    color: black;
+    color: #05335c;
     font-size: 14px;
 }
 
@@ -65,7 +62,7 @@ p {
 }
 
 footer {
-    margin: 150px 0;
+    margin: 250px 0;
     text-align: center;
     padding: 5px;
     border-radius: 5px;
@@ -94,10 +91,5 @@ button {
 
 .link-footer {
     text-decoration: none;
-    color: black;
-}
-
-
-.link-footer:hover {
-    color: #486a9d;
+    color: #05335c;
 }
